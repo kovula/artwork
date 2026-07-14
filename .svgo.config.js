@@ -9,6 +9,7 @@ export default {
       name: "preset-default",
       params: {
         overrides: {
+          collapseGroups: false,
           convertPathData: false,
           mergePaths: false,
           convertTransform: false,
@@ -22,8 +23,8 @@ export default {
       name: "convertPathData",
       active: true,
       params: {
-        floatPrecision: 2,
-        transformPrecision: 2,
+        floatPrecision: 5,
+        transformPrecision: 5,
         makeArcs: false,
         straightCurves: false,
         noSpaceAfterFlags: false,
